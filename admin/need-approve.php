@@ -138,6 +138,7 @@
                     <tr>
                       <th>ID</th>
                       <th>Date</th>
+                      <th>Sport</th>
                       <th>Court</th>
                       <th>Time</th>
                       <th>Status</th>
@@ -166,7 +167,16 @@
 
                     // Fetch all users data from database
                     // $sql = "SELECT * FROM reservation WHERE status='Sudah dibayar' ORDER BY id ASC";
-                    $sql = "SELECT reservation.id, reservation.start_date, reservation.matric_no, reservation.start_time, reservation.end_time, price.category, reservation.status, reservation.picture from (reservation reservation LEFT JOIN price price on reservation.price_id = price.id) WHERE status='Wait for Approval' ORDER BY id ASC";
+                     $sql = "SELECT reservation.id, reservation.start_date, reservation.start_time, 
+                                    reservation.end_time, reservation.email, reservation.status, reservation.matric_no, reservation.picture,
+                                    field.field_name, location.location_name, price.category 
+                                    from 
+                                    ((reservation reservation LEFT JOIN field field on reservation.field_id=field.id) 
+                                    LEFT JOIN location location on reservation.location_id=location.id) 
+                                    LEFT JOIN price price on reservation.price_id=price.id
+                      WHERE status='Wait for Approval' 
+                      ORDER BY id ASC";
+
                     $result = mysqli_query($mysqli, $sql) or die (mysqli_error($mysqli));
                         
                         while($reserv = mysqli_fetch_array($result)) { 
@@ -199,7 +209,8 @@
                             echo "<tr>";       
                             echo "<td>".$reserv['id']."</td>";       
                             echo "<td>".$reserv['start_date']."</td>";       
-                            // echo "<td>".$total_harga."</td>";       
+                            // echo "<td>".$total_harga."</td>";
+                            echo "<td>".$reserv['field_name']."</td>";       
                             echo "<td>".$reserv['category']."</td>";
                             echo "<td>".$reserv['start_time']." - ".$reserv['end_time']."<br><span class='badge badge-success'>Total Time: ".$j." Hours, ".floor( $menit / 60 )." Minutes</span></td>";       
                             echo "<td>".$reserv['status']."</td>";       
