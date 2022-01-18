@@ -1326,7 +1326,7 @@ readers do not read off random characters that represent icons */
 .fa-dog:before {
   content: "\f6d3"; }
 
-.fa-dollar-sign:before {
+.fa-pen-nib:before {
   content: "\f155"; }
 
 .fa-dolly:before {
@@ -4239,7 +4239,7 @@ readers do not read off random characters that represent icons */
 .fa-user-secret:before {
   content: "\f21b"; }
 
-.fa-user-shield:before {
+.fa-user-cog:before {
   content: "\f505"; }
 
 .fa-user-slash:before {
@@ -4347,7 +4347,7 @@ readers do not read off random characters that represent icons */
 .fa-voicemail:before {
   content: "\f897"; }
 
-.fa-volleyball-ball:before {
+.fa-user-cog:before {
   content: "\f45f"; }
 
 .fa-volume-down:before {

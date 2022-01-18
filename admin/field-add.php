@@ -42,7 +42,7 @@
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.php">
                 <div class="sidebar-brand-icon rotate-n-15">
-                    <i class="fas fa-volleyball-ball"></i>
+                    <i class="fas fa-user-cog"></i>
                 </div>
                 <div class="sidebar-brand-text mx-3">USIM <sup><span
                             class="badge badge-pill badge-light">BETA</span></sup></div>
@@ -165,14 +165,15 @@
                                             <input type="text" class="form-control" name="field_name">
                                         </div>
                                         <div class="form-group">
-                                            <label for="exampleFormControlSelect1">Picture</label>
-                                            <select class="form-control" name="picture">
-                                                <option disabled selected> Choose </option>
+                                            <label for="exampleInputEmail1">Picture</label>
+                                            <input type="text" class="form-control" name="picture">
+                                            </div>
+                                                <!-- <option disabled selected> Choose </option>
                                                 <option value="avatar-futsal.jpg">Futsal Picture</option>
                                                 <option value="avatar-badminton.jpg">Badminton Picture</option>
                                                 <option value="avatar-volly.jpg">Volly Picture</option>
                                             </select>
-                                        </div>
+                                        </div> -->
                                         <!-- <div class="form-group">
                                             <label for="exampleInputEmail1">URL</label>
                                             <input type="text" class="form-control" name="url">

@@ -9,7 +9,7 @@
   <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
   <link rel="apple-touch-startup-image" href="images/apple-touch-startup-image-640x920.png">
   <title>USIM's Sport Facilities Reservation</title>
-  <link rel="shortcut icon" href="https://www.shareicon.net/data/2015/09/07/97275_volleyball_512x512.png" type="image/x-icon">
+  <link rel="shortcut icon" href="https://vectorlogo4u.com/wp-content/uploads/2019/10/USIM-Logo-Vector.png" type="image/x-icon">
   <link rel="stylesheet" href="css/swiper.css">
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,900" rel="stylesheet">
@@ -98,11 +98,11 @@
                   Universiti Sains Islam Malaysia,
                   Bandar Baru Nilai,
                   71800 Nilai, Negeri Sembilan, Malaysia <br />
-                  TELEPHONE: +606-798 6134/6105 <br />
+                  TELEPHONE: +606-798 6134 <br />
                   FAX:  +606-798 6135
                 </blockquote>
 
-                <a href="TELEPHONE: +606-798 6134/6105" class="btn btn--full">Call Us Now!</a>
+                <a href="TELEPHONE: +606-798 6134" class="btn btn--full">Call Us Now!</a>
 
                 <div class="clear"></div>
               </div>

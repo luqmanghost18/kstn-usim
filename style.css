@@ -1390,7 +1390,7 @@ display:block;
 max-width:100%;
 -webkit-border-radius: 50%;
 -moz-border-radius: 50%;
-border-radius: 50%;
+/* border-radius: 50%; */
 }
 .conversation__row--sent .conversation__avatar{
 max-width:30px;
@@ -1447,7 +1447,7 @@ padding:20px 0 0 0;
 .team-block a img{
 display:block;
 width:50%;
-border-radius:50%;
+/* border-radius:50%; */
 margin:auto;
 }
 .team-block strong{
@@ -2819,7 +2819,7 @@ h2#Note{
 	-moz-box-shadow: none;
 }
 .tabs .tab {
-	order: 99; // Put the tabs last
+	order: 99; 
 	flex-grow: 1;
 	width: 100%;
 	display: none;

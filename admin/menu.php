@@ -15,7 +15,7 @@
       <!-- Nav Item - Charts -->
       <li class="nav-item">
         <a class="nav-link" href="reservation-schedule.php">
-          <i class="fas fa-fw fa-calendar"></i>
+          <i class="fas fa-fw fa-calendar-day"></i>
           <span>Playing Schedule</span></a>
       </li>
 
@@ -25,7 +25,7 @@
       <!-- Nav Item - Pages Collapse Menu -->
       <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages">
-          <i class="fas fa-fw fa-database"></i>
+          <i class="fas fa-fw fa-keyboard"></i>
           <span>Master Data</span>
         </a>
         <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
@@ -47,7 +47,7 @@
       <!-- Nav Item - Pages Collapse Menu -->
       <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages1" aria-expanded="true" aria-controls="collapsePages1">
-          <i class="fas fa-fw fa-dollar-sign"></i>
+          <i class="fas fa-fw fa-pen-nib"></i>
           <span>Reservation</span>
         </a>
         <div id="collapsePages1" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">

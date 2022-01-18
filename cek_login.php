@@ -6,7 +6,7 @@ session_start();
 include 'koneksi.php';
  
 // menangkap data yang dikirim dari form login
-$matric_no = $_POST['matric_no'];
+$matric_no = mysqli_real_escape_string($koneksi, $_POST['matric_no']);
 $password = sha1($_POST['password']);
  
  

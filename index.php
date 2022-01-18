@@ -9,7 +9,7 @@
   <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
   <link rel="apple-touch-startup-image" href="images/apple-touch-startup-image-640x920.png">
   <title>USIM's Sport Facilities Reservation</title>
-  <link rel="shortcut icon" href="https://www.shareicon.net/data/2015/09/07/97275_volleyball_512x512.png" type="image/x-icon">
+  <link rel="shortcut icon" href="https://vectorlogo4u.com/wp-content/uploads/2019/10/USIM-Logo-Vector.png" type="image/x-icon">
   <link rel="stylesheet" href="css/swiper.css">
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,900" rel="stylesheet">
@@ -78,7 +78,8 @@
 
             <div class="navbar navbar--fixed navbar--fixed-top">
               <div class="navbar__col navbar__col--title">
-                <a href="index.php">USIM</a>
+              <a href="index.php"><img src = "http://infosukan.usim.edu.my/wp-content/uploads/2018/07/PUSAT-SUKAN.png"></a>
+
               </div>
               <div class="navbar__col navbar__col--icon navbar__col--icon-right">
                 <a href="#" data-panel="left" class="open-panel"><img src="images/icons/white/menu.png" alt=""
@@ -167,7 +168,7 @@
         <form id="LoginForm" method="post" action="cek_login.php">
           <input type="text" name="matric_no" value="" class="form_input required" placeholder="Matric Number" />
           <input type="password" name="password" value="" class="form_input required" placeholder="Password" />
-          <div class="forgot_pass"><a href="#" data-popup=".popup-forgot" class="open-popup">Forgot Password?</a></div>
+          <!-- <div class="forgot_pass"><a href="#" data-popup=".popup-forgot" class="open-popup">Forgot Password?</a></div> -->
           <input type="submit" name="submit" class="form_submit" id="submit" value="SIGN IN" />
         </form>
         <div class="signup_bottom">

@@ -79,7 +79,7 @@ while($blog = mysqli_fetch_array($result))
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.php">
                 <div class="sidebar-brand-icon rotate-n-15">
-                    <i class="fas fa-volleyball-ball"></i>
+                    <i class="fas fa-user-cog"></i>
                 </div>
                 <div class="sidebar-brand-text mx-3">USIM <sup><span
                             class="badge badge-pill badge-light">BETA</span></sup></div>
@@ -213,10 +213,10 @@ while($blog = mysqli_fetch_array($result))
                                                 <option value="avatar-volly.jpg">Volly Picture</option>
                                             </select>
                                         </div> -->
-                                        <div class="form-group">
+                                        <!-- <div class="form-group">
                                             <label for="exampleInputEmail1">URL</label>
                                             <input type="text" class="form-control" name="url" value="<?php echo $url;?>">
-                                        </div>
+                                        </div> -->
 
                                         <input type="hidden" name="id" value=<?php echo $_GET['id'];?>>
                                         <input type="submit" name="update" value="Update" class="btn btn-primary">

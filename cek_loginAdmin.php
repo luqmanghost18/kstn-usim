@@ -6,7 +6,7 @@ session_start();
 include 'koneksi.php';
  
 // menangkap data yang dikirim dari form login
-$staff_id = $_POST['staff_id'];
+$staff_id = mysqli_real_escape_string($koneksi, $_POST['staff_id']);
 $password = sha1($_POST['password']);
  
  

@@ -40,7 +40,7 @@
       <!-- Sidebar - Brand -->
 <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.php">
         <div class="sidebar-brand-icon rotate-n-15">
-          <i class="fas fa-volleyball-ball"></i>
+          <i class="fas fa-user-cog"></i>
         </div>
         <div class="sidebar-brand-text mx-3">USIM <sup><span class="badge badge-pill badge-light">BETA</span></sup></div>
       </a>
@@ -160,7 +160,7 @@
                       <th>Status</th>
                       <th>Username</th>
                       <th>Invoice</th>
-                      <!-- <th>Action</th> -->
+                      <th>Action</th>
                     </tr>
                   </tfoot> -->
                   <tbody>

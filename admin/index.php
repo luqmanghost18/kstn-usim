@@ -40,7 +40,7 @@
       <!-- Sidebar - Brand -->
       <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.php">
         <div class="sidebar-brand-icon rotate-n-15">
-          <i class="fas fa-volleyball-ball"></i>
+          <i class="fas fa-user-cog"></i>
         </div>
         <div class="sidebar-brand-text mx-3">USIM <sup><span class="badge badge-pill badge-light">BETA</span></sup></div>
       </a>
@@ -151,7 +151,7 @@
                       </div>
                     </div>
                     <div class="col-auto">
-                      <i class="fas fa-calendar fa-2x text-gray-300"></i>
+                      <i class="fas fa-calendar-day fa-2x text-gray-300"></i>
                     </div>
                   </div>
                 </div>
@@ -177,7 +177,7 @@
                       </div>
                     </div>
                     <div class="col-auto">
-                      <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
+                      <i class="fas fa-pen-nib fa-2x text-gray-300"></i>
                     </div>
                   </div>
                 </div>
