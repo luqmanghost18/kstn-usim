@@ -1,3 +1,3 @@
-# Sport Center Reservation
+# Sport Facilities Reservation System
 
-Aplikasi untuk melakukan reservasi lapangan olahraga
+My Final Year Project 2022
