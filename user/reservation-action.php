@@ -110,7 +110,7 @@
 
 
                 <div class="form_row">
-                <label>Matric Number: </label>
+                <label>Matric Number/Staff ID: </label>
                 <input type="text" name="n" value="<?php echo $n=$_POST['name']; ?>" class="form_input" readonly>
                 </div>
 				

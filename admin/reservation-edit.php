@@ -179,7 +179,7 @@ while($user_data = mysqli_fetch_array($result))
                         <input type="text" class="form-control" name="nama" value=<?php echo $nama;?>>
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Matric Number</label>
+                        <label for="exampleInputEmail1">Matric Number/Staff ID</label>
                         <input type="text" class="form-control" name="matric_no" value=<?php echo $matric_no;?>>
                     </div>
                     <div>

@@ -142,7 +142,7 @@
                       <th>Court</th>
                       <th>Time</th>
                       <th>Status</th>
-                      <th>Matric Number</th>
+                      <th>Matric Number/Staff ID</th>
                       <!-- <th>Invoice</th> -->
                       <th>Action</th>
                     </tr>

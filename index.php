@@ -166,7 +166,7 @@
       <h4>LOGIN</h4>
       <div class="loginform">
         <form id="LoginForm" method="post" action="cek_login.php">
-          <input type="text" name="matric_no" value="" class="form_input required" placeholder="Matric Number" />
+          <input type="text" name="matric_no" value="" class="form_input required" placeholder="Matric Number/ Staff ID" />
           <input type="password" name="password" value="" class="form_input required" placeholder="Password" />
           <!-- <div class="forgot_pass"><a href="#" data-popup=".popup-forgot" class="open-popup">Forgot Password?</a></div> -->
           <input type="submit" name="submit" class="form_submit" id="submit" value="SIGN IN" />
@@ -209,7 +209,7 @@
       <div class="loginform">
       <form id="RegisterForm" action="index.php" method="post">
           <input type="text" name="nama" value="" class="form_input required" placeholder="Name" />
-          <input type="text" name="matric_no" value="" class="form_input required" placeholder="Matric No." />
+          <input type="text" name="matric_no" value="" class="form_input required" placeholder="Matric No./Staff ID" />
           <input type="email" name="email" value="" class="form_input required" placeholder="Email" />
           <input type="password" name="password" value="" class="form_input required" placeholder="Password" />
           <input type="submit" name="Submit" class="form_submit" value="SIGN UP" />

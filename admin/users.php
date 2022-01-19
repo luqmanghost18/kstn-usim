@@ -139,7 +139,7 @@
                     <tr>
                       <th>#</th>
                       <th>Name</th>
-                      <th>Matric Number</th>
+                      <th>Matric Number/Staff ID</th>
                       <th>Level</th>
                       <th>Action</th>
                     </tr>

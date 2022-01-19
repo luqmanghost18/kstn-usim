@@ -144,7 +144,7 @@
                       <th>Time</th>
                       <th>Description</th>
                       <th>Status</th>
-                      <th>Matric Number</th>
+                      <th>Matric Number/Staff ID</th>
                       <!-- <th>Invoice</th> -->
                       <th>Confirmation</th>
                       <th>Action</th>

@@ -133,7 +133,7 @@
                 <input type="hidden" name="date" value="<?php echo $day=$_POST['date']; ?>" class="form_input" readonly>
 
                 <div class="form_row">
-                <label>Matric Number:</label>
+                <label>Matric Number/STaff ID:</label>
                 <input type="text" name="name" value="<?php echo $_SESSION['matric_no']; ?>" class="form_input">
                 </div>
                 

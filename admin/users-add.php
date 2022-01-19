@@ -140,7 +140,7 @@
                         <input type="text" class="form-control" name="nama">
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Matric Number</label>
+                        <label for="exampleInputEmail1">Matric Number/Staff ID</label>
                         <input type="text" class="form-control" name="matric_no">
                     </div>
                     <div class="form-group">
