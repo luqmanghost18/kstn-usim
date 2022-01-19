@@ -140,7 +140,7 @@
             echo "<p>Your reservation has been approved by the admin !</p>";
             echo "<hr>";
             echo "<p>ID RESERVATION : ".$id."</p>";
-            echo "<p>MATRIC NUMBER : ".$name."</p>";
+            echo "<p>MATRIC NUMBER/STAFF ID : ".$name."</p>";
             echo "<p>DATE : ".$start_date."</p>";
             echo "<p>TIME : ".$start_time." - ".$end_time."</p>";
             echo "<hr>";

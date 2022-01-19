@@ -191,7 +191,7 @@
         <form id="LoginForm" method="post" action="cek_loginAdmin.php">
           <input type="text" name="staff_id" value="" class="form_input required" placeholder="Staff ID" />
           <input type="password" name="password" value="" class="form_input required" placeholder="Password" />
-          <div class="forgot_pass"><a href="#" data-popup=".popup-forgot" class="open-popup">Forgot Password?</a></div>
+          <!-- <div class="forgot_pass"><a href="#" data-popup=".popup-forgot" class="open-popup">Forgot Password?</a></div> -->
           <input type="submit" name="submit" class="form_submit" id="submit" value="SIGN IN" />
         </form>
       </div>
